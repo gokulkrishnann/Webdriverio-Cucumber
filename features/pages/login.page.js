@@ -18,7 +18,7 @@ class LoginPage {
 
     open() {
         browser.url("/sign_in")
-        browser.setWindowSize(1390, 1150)
+        browser.maximizeWindow()
     }
     enterUsername(input) {
         this.userNameInput.setValue(input)
