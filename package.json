@@ -8,8 +8,9 @@
     "parallel": "wdio wdio.conf.js --parallel=true"
   },
   "author": "gokul krishna",
-  "license": "ISC",
-  "devDependencies": {
+  "license": "",
+  "devDependencies": {},
+  "dependencies": {
     "@rpii/wdio-html-reporter": "0.8.6",
     "@wdio/cli": "^6.0.13",
     "@wdio/cucumber-framework": "6.0.13",
@@ -21,6 +22,5 @@
     "selenium-standalone": "6.17.0",
     "wdio-cucumber-parallel-execution": "^3.6.7",
     "wdio-cucumberjs-json-reporter": "1.2.0"
-  },
-  "dependencies": {}
+  }
 }
